@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ruth.jahan.pathoinfo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/p2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/p2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PathoInfo">
+        <activity android:name=".LoadtestnameActivity"></activity>
+        <activity android:name=".ImmunActivity" />
+        <activity android:name=".EndoActivity" />
+        <activity android:name=".PCRActivity" />
+        <activity android:name=".AllergyActivity" />
+        <activity android:name=".HistoActivity" />
+        <activity android:name=".InfectionActivity" />
+        <activity android:name=".SerumActivity" />
+        <activity android:name=".AnemiaActivity" />
+        <activity android:name=".MicrobioActivity" />
+        <activity android:name=".ArthritisActivity" />
+        <activity android:name=".ThyroidActivity" />
+        <activity android:name=".UrineActivity" />
+        <activity android:name=".ReproductiveActivity" />
+        <activity android:name=".CancerActivity" />
+        <activity android:name=".HeartActivity" />
+        <activity android:name=".LiverActivity" />
+        <activity android:name=".KidneyActivity" />
+        <activity android:name=".DiabetesActivity" />
+        <activity android:name=".AddTestActivity" />
+        <activity android:name=".HaematologyActivity" />
+        <activity android:name=".OtherReviewActivity" />
+        <activity android:name=".TestLabelActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".ReviewActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Aboutlab" />
+        <activity android:name=".labinformation" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LabName" />
+    </application>
+
+</manifest>

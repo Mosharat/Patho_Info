@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/patho5"
+    android:gravity="center"
+    tools:context=".AddTestActivity">
+
+    <EditText
+        android:id="@+id/addtestnameid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Test Name"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/testtkid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:hint="TK"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+
+    </EditText>
+
+    <Button
+        android:id="@+id/addtestbuttonid"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A85E88"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="ADD Test"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="New Registered User:"
+        android:textStyle="bold"
+        android:textSize="18sp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/newusernotificationtextviewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="18sp">
+
+    </TextView>
+
+
+
+
+</LinearLayout>

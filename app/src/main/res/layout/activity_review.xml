@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/patho5"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/reviewlabnameid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Lab Name"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/commentid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Write Review"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+
+    </EditText>
+
+    <Button
+        android:id="@+id/donebuttonid"
+        android:text="Done"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A85E88"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+         />
+
+    <Button
+        android:id="@+id/loadbuttonid"
+        android:text="other reviews?"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="277dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A85E88"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+
+
+</LinearLayout>

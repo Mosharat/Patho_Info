@@ -1,0 +1,363 @@
+<resources>
+    <string name="app_name">Patho Info</string>
+    <string name="about_text">
+        Pathology is what connects medicine with science. In a nutshell, pathology is the study of diseases.
+        Pathology laboratories exist to aid doctors in laboratory testing and to study and interpret results of biopsies and other specimens.
+        Pathology laboratories may be found as standalone facilities, but these pathology laboratories may also be found within hospitals
+        to help the medical team better understand the causes of various diseases.
+
+    </string>
+
+    <string-array name="Testlabel">
+
+        <item>Haematology</item>
+        <item>Diabetes</item>
+        <item>Kidney Diseases</item>
+        <item>Liver Diseases</item>
+        <item>Heart Diseases</item>
+        <item>Cancer Markers</item>
+        <item>Reproductive Tests</item>
+        <item>Urine/Stool Sample</item>
+        <item>Thyroid Disorders</item>
+        <item>Arthritis Diseases</item>
+        <item>Microbiology</item>
+        <item>Anemia Profile</item>
+        <item>Serum Electrolytes</item>
+        <item>Infectious Diseases</item>
+        <item>Histopathology</item>
+        <item>Allergy Tests</item>
+        <item>PCR</item>
+        <item>Endocrine Metabolic Disorder</item>
+        <item>Immuno Histochemistry</item>
+        <item>Recently Added Tests</item>
+
+    </string-array>
+
+    <string-array name="Haematology">
+        <item>CBC- Tk: 400</item>
+        <item>TC,DC,ESR,HB%- Tk: 300</item>
+        <item>Blood Film(PBF*)- Tk: 400</item>
+        <item>Reticulocyte count- Tk: 400</item>
+        <item>Platelet count- Tk: 300</item>
+        <item>Eosinophil count- Tk: 300</item>
+        <item>MP- Tk: 300</item>
+        <item>BT,CT- Tk: 300</item>
+        <item>Prothombin Time- Tk: 700</item>
+
+    </string-array>
+
+    <string-array name="Diabetes">
+        <item>FBS(Fasting Blood Sugar)- Tk: 150</item>
+        <item>RBS(Random Blood Sugar)- Tk: 150</item>
+        <item>1hr 75gm Glucose- Tk: 150</item>
+        <item>2hr After 75gm Glucose- Tk: 150</item>
+        <item>2hr After Breakfast- Tk: 150</item>
+        <item>OGTT-2 Samples(FBS+2hr 75gm post Glucose Load)- Tk: 500</item>
+        <item>OGTT-3 Samples(FBS+1hr+2hrs 75gm post Glucose Load)- Tk: 900</item>
+        <item>HbA1c- Tk: 1000</item>
+        <item>Insulin- Tk: 1800</item>
+        <item>PPBS(Post prandial Blood Sugar)- Tk: 150</item>
+        <item>ACR-Urine- Tk: 1000</item>
+
+    </string-array>
+
+    <string-array name="Kidney">
+        <item>Serum Creatinin- Tk: 350</item>
+        <item>Blood urea Nitrogen- Tk: 400</item>
+        <item>eGFR- Tk: 800</item>
+        <item>CCR-24Hr Urine- Tk: 800</item>
+        <item>Anti Glomerular Basement Membrane protein IGG- Tk: 8000</item>
+        <item>Urinary Microalbumin- Tk: 900</item>
+        <item>Cystatin C- Tk: 7000</item>
+        <item>Direct Renin- Tk: 3000</item>
+        <item>Serum Uric Acid- Tk: 350</item>
+        <item>Serum Urea- Tk: 400</item>
+
+    </string-array>
+
+    <string-array name="Liver">
+        <item>SGPT/ALT- Tk: 350</item>
+        <item>SGOT/AST- Tk: 350</item>
+        <item>Alkaline Phosphatase(ALP)- Tk: 400</item>
+        <item>GGT(Gamma Glutamyl Transferase)- Tk: 650</item>
+        <item>Billirubin- Tk: 350</item>
+        <item>Billirubin-Direct- Tk: 400</item>
+        <item>Liver Function Test- Tk: 900</item>
+        <item>Total Protein- Tk: 350</item>
+        <item>Serum Albumin- Tk: 300</item>
+        <item>Serum Globulin- Tk: 600</item>
+        <item>Protein Profile- Tk: 600</item>
+        <item>Serum Amylase- Tk: 650</item>
+        <item>Serum Lipase- Tk: 900</item>
+        <item>HBsAg(Hepatitis B Surface Antigen)- Tk: 600</item>
+        <item>Anti HCV-Total(Anti Hepatitis C Virus)- Tk: 800</item>
+        <item>HBV Quantitative- Tk: 8000</item>
+        <item>HCV Quantitative- Tk: 1200</item>
+        <item>Hepatitis C Genotyping- Tk: 18000</item>
+
+    </string-array>
+
+    <string-array name="Heart">
+        <item>Lipid Profile- Tk: 1000</item>
+        <item>Total Cholesterol- Tk: 350</item>
+        <item>Triglycerides(TG)- Tk: 400</item>
+        <item>HDL-Direct- Tk: 200</item>
+        <item>LDL-Direct- Tk: 400</item>
+        <item>Troponin I- Tk: 1000</item>
+        <item>Pro BNP- Tk: 2500</item>
+        <item>CK-MB- Tk: 950</item>
+        <item>CPK- Tk: 800</item>
+        <item>LDH- Tk: 700</item>
+        <item>HsCRP- Tk: 6000</item>
+
+    </string-array>
+
+    <string-array name="Cancer">
+        <item>PSA- Tk: 850</item>
+        <item>Free PSA- Tk: 1000</item>
+        <item>Alpha Fetoprotein(AFP)- Tk: 850</item>
+        <item>Carcinoembryonic antigen(CEA)- Tk: 850</item>
+        <item>Ca-125- Tk: 1000</item>
+        <item>Ca-19.9- Tk: 1000</item>
+        <item>Ca-15.3- Tk: 1000</item>
+
+    </string-array>
+
+    <string-array name="Reproductive">
+        <item>Beta HCG- Tk: 850</item>
+        <item>Luteinizing Hormone(LH)- Tk: 750</item>
+        <item>Follicle Stimulating Hormone(FSH)- Tk: 750</item>
+        <item>Prolactin- Tk: 750</item>
+        <item>Estradiol/Oestrogen- Tk: 750</item>
+        <item>Progesterone- Tk: 750</item>
+        <item>Testosteron- Tk: 800</item>
+        <item>AMH- Tk: 4000</item>
+        <item>Inhibin A- Tk: 8000</item>
+        <item>17 OH Progesterone- Tk: 5000</item>
+        <item>Pregnancy associated plasma protein A- Tk: 8000</item>
+        <item>Triple Marker- Tk: 8000</item>
+        <item>Duel Marker- Tk: 11000</item>
+        <item>Sex Hormone Binding Globulin- Tk: 3600</item>
+        <item>Unconjugated Estriol- Tk: 3600</item>
+        <item>Lupus Anticoagulant Test- Tk: 6500</item>
+
+    </string-array>
+
+    <string-array name="Urine">
+        <item>Urinogram- Tk: 150</item>
+        <item>Urine for R/S- Tk: 300</item>
+        <item>Urine ketone bodies(Acetone)- Tk: 300</item>
+        <item>Urobilinogen Urine- Tk: 300</item>
+        <item>Urine for PH- Tk: 300</item>
+        <item>Urine Specific Gravity- Tk: 300</item>
+        <item>Urine Albumin- Tk: 350</item>
+        <item>Urine for sugar- Tk: 300</item>
+        <item>Spot Urine Protein- Tk: 600</item>
+        <item>24 Hrs Urine T. Protein- Tk: 900</item>
+        <item>Urine Protein Creatinine Ratio- Tk: 1000</item>
+        <item>Stool for OBT- Tk: 600</item>
+        <item>Stool for R/M/E- Tk: 600</item>
+        <item>Stool R/S- Tk: 600</item>
+        <item>Urine for C/S- Tk: 450</item>
+        <item>Stool for C/S- Tk: 500</item>
+
+    </string-array>
+
+    <string-array name="Thyroid">
+        <item>Total Triiodothyronine- Tk: 800</item>
+        <item>Total Thyroxine- Tk: 800</item>
+        <item>TSH- Tk: 800</item>
+        <item>Free Triiodythyronine- Tk: 1000</item>
+        <item>Free Thyroxine- Tk: 1000</item>
+        <item>T3,T4,TSH- Tk: 2400</item>
+        <item>Anti Thyroglobulin Antibody- Tk: 1000</item>
+        <item>Antimicrosomal Antibody- Tk: 8000</item>
+        <item>Thyroglobulin(TG)- Tk: 6000</item>
+        <item>TSH-Ultrasensitive- Tk: 3000</item>
+        <item>Neonatal Thyroid Stimulating Hormone- Tk: 1200</item>
+
+    </string-array>
+
+    <string-array name="Arthritis">
+        <item>ASO titre- Tk: 600</item>
+        <item>Rheumatoid Factor(RF)- Tk: 600</item>
+        <item>Serum Calcium- Tk: 1000</item>
+        <item>Serum Phosphorous- Tk: 500</item>
+        <item>Uric Acid- Tk: 400</item>
+        <item>ACCP- Tk: 1600</item>
+
+    </string-array>
+
+    <string-array name="Microbiology">
+        <item>Blood for C/S- Tk: 1200</item>
+        <item>Sputum for C/S- Tk: 800</item>
+        <item>Asticitic Fluid for C/S- Tk: 800</item>
+        <item>Hair Pluck for C/S- Tk: 800</item>
+        <item>High Vaginal Swab for C/S- Tk: 800</item>
+        <item>Nail Clipping for C/S- Tk: 800</item>
+        <item>Pleural fluid for C/S- Tk: 800</item>
+        <item>Prostatic Smear for C/S- Tk: 800</item>
+        <item>Conjunctival swab C/S- Tk: 800</item>
+        <item>Throat Swab for Granin Stain- Tk: 360</item>
+        <item>Ascitic fluid for AFB stain- Tk: 360</item>
+        <item>Pleural Fluid for AFB stain- Tk: 360</item>
+        <item>PUS for Gram stain- Tk: 360</item>
+        <item>PUS for AFB stain- Tk: 360</item>
+        <item>Fluid for RE- Tk: 360</item>
+
+    </string-array>
+
+    <string-array name="Anemia">
+        <item>Iron Profile- Tk: 2800</item>
+        <item>Serum Iron- Tk: 1000</item>
+        <item>Total iron binding capacity(TIBC)- Tk: 1000</item>
+        <item>Serum Ferritin- Tk: 1000</item>
+        <item>Serum Vitamin B-12- Tk: 1600</item>
+        <item>Serum Folic Acid- Tk: 2000</item>
+        <item>Glucose-6-Phosphate Dehydrogenase- Tk: 4000</item>
+        <item>Ceruloplasmin- Tk: 5000</item>
+        <item>Erythropoirtein- Tk: 5500</item>
+
+    </string-array>
+
+    <string-array name="Serum">
+        <item>Serum Electrolytes- Tk: 700</item>
+        <item>Serum sodium- Tk: 500</item>
+        <item>Serum chloride- Tk: 500</item>
+        <item>Serum potassium- Tk: 500</item>
+        <item>Magnesium- Tk: 1000</item>
+        <item>Lithium- Tk: 1000</item>
+        <item>Serum Zinc- Tk: 4600</item>
+        <item>Elements 22- Tk: 10000</item>
+        <item>Serum Copper- Tk: 3600</item>
+
+    </string-array>
+
+    <string-array name="Infection">
+        <item>HIV(Elisa)- Tk: 800</item>
+        <item>Torch pannel- Tk: 8000</item>
+        <item>Toxo Gondii- Tk: 1100</item>
+        <item>Cytomegola Virus-IgM- Tk: 1100</item>
+        <item>Cytomegola Virus-IgG- Tk: 1100</item>
+        <item>Herpes Simplex Virus-IgM- Tk: 1200</item>
+        <item>Herpes Simplex Virus-IgG- Tk: 1200</item>
+        <item>Anti Chlamydia antibody IGM- Tk: 7000</item>
+        <item>Anti Chlamydia antibody IGG- Tk: 700</item>
+        <item>Treponema Pallidum Antibody- Tk: 8000</item>
+        <item>Leptospira-IGM- Tk: 5000</item>
+        <item>Quantiferon-TB- Tk: 6000</item>
+        <item>ADA- Tk: 1200</item>
+
+    </string-array>
+
+    <string-array name="Histopathology">
+        <item>Histopathology Liver Biopsy Pannel- Tk: 6600</item>
+        <item>Histopathology Polarising Microscopy- Tk: 1400</item>
+        <item>Histopathology Skin Biopsy pannel- Tk: 4000</item>
+        <item>Histopathology Medium Sample(51gm-100gm)- Tk: 2800</item>
+        <item>Histopathology Large sample(101gm-200gm)- Tk: 3600</item>
+        <item>Histopathology Extra large sample(>200gm)- Tk: 5000</item>
+        <item>PAPs Smear- Tk: 1200</item>
+
+    </string-array>
+
+    <string-array name="Allergy">
+        <item>Total IGE- Tk: 800</item>
+        <item>Specific IGE(60 parameter)- Tk: 9000</item>
+        <item>Allergy pannel-Food- Tk: 9000</item>
+        <item>Allergy pannel-Non Veg- Tk: 9000</item>
+        <item>Allergy pannel-Inhalant- Tk: 9000</item>
+        <item>Allergy pannel-Drug- Tk: 9000</item>
+        <item>Allergy pannel-Food plus Non-Veg- Tk: 16000</item>
+        <item>Allergy pannel-Food plus Drug- Tk: 18000</item>
+        <item>AAllergy pannel-Food plus Inhalant- Tk: 12000</item>
+        <item>Allergy pannel-Food,Inhalant plus Non Veg- Tk: 16000</item>
+        <item>Allergy pannel-Food,Inhalant plus Drug- Tk: 20000</item>
+        <item>Allergy pannel-Food,Inhalant,Non Veg plus Drug- Tk: 22000</item>
+
+    </string-array>
+
+    <string-array name="PCR">
+        <item>Karyotyping- Tk: 12000</item>
+        <item>Karyotyping couples- Tk: 24000</item>
+        <item>Karyotyping for Ambioguous Genetalia- Tk: 20000</item>
+        <item>HIV1 RNA Qualitative- Tk: 9000</item>
+        <item>HIV1 RNA Qualitative(PCR)- Tk: 14000</item>
+        <item>HIV-Western Blot- Tk: 9000</item>
+        <item>H1N1(Swine flu) Qualitative,Real Time PCR- Tk: 17000</item>
+        <item>Maternal Blood for Fatal DNA- Tk: 90000</item>
+        <item>Mycobacterium Tuberculosis,rRNA Detection,TMA- Tk: 9000</item>
+        <item>Mycobacterium Tuberculosis,PCR,Mycosure,TB PCR- Tk: 7500</item>
+
+    </string-array>
+
+    <string-array name="Endocrine">
+        <item>25-OH Vitamin D(Total)- Tk: 2800</item>
+        <item>Intact parathyroid hormone- Tk: 1500</item>
+        <item>Cortisol serum- Tk: 800</item>
+        <item>Short synacthen test- Tk: 3000</item>
+        <item>Human growth hormone- Tk: 1200</item>
+        <item>DHEA-Sulphate- Tk: 6000</item>
+        <item>Androstenedione- Tk: 10000</item>
+        <item>Andrenocorticotropic hormone- Tk: 1600</item>
+
+    </string-array>
+
+    <string-array name="Immunohistochemistry">
+        <item>Androgen Receptor- Tk: 9000</item>
+        <item>CDX2- Tk: 9000</item>
+        <item>Carcinoembryogenic Antigen- Tk: 9000</item>
+        <item>Cytokeratin 20- Tk: 9000</item>
+        <item>Cytokeratin 7- Tk: 9000</item>
+        <item>Napsin A- Tk: 9000</item>
+        <item>P40- Tk: 9000</item>
+        <item>PDL1- Tk: 9000</item>
+        <item>PSA-IHC- Tk: 9000</item>
+        <item>TTF1- Tk: 9000</item>
+        <item>Vimentin- Tk: 9000</item>
+        <item>BCL2- Tk: 9000</item>
+        <item>BCL6- Tk: 9000</item>
+        <item>Cyclin D1- Tk: 9000</item>
+
+    </string-array>
+
+    <string-array name="Other">
+        <item>Widal Test- Tk: 600</item>
+        <item>Triple antigen- Tk: 900</item>
+        <item>Dengue antibody- Tk: 1000</item>
+        <item>Chikungunya antibody- Tk: 2400</item>
+        <item>Malaria parasite- Tk: 800</item>
+        <item>ICT for Filaria- Tk: 800</item>
+        <item>ICT for Kala-azar- Tk: 800</item>
+        <item>VDRL- Tk: 600</item>
+        <item>TPHA- Tk: 700</item>
+        <item>H.Pylori IGG- Tk: 800</item>
+        <item>C-Reactive protein- Tk: 750</item>
+        <item>Blood group and RH factor- Tk: 100</item>
+        <item>Vitamin A- Tk: 16000</item>
+        <item>Vitamin B1- Tk: 28000</item>
+        <item>Vitamin B complex- Tk: 20000</item>
+        <item>Vitamin C- Tk: 28000</item>
+        <item>Vitamin E- Tk: 16000</item>
+        <item>Vitamin K- Tk: 34000</item>
+        <item>Free Beta HCG- Tk: 6000</item>
+        <item>Genexpert- Tk: 16000</item>
+        <item>S.Calcitonin- Tk: 16000</item>
+        <item>Procalcitonin- Tk: 16000</item>
+
+    </string-array>
+
+
+    <string name="username">Username</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+</resources>

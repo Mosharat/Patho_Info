@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "491440859434",
+    "project_id": "patho-info",
+    "storage_bucket": "patho-info.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491440859434:android:fbcd754091a88e5f98d653",
+        "android_client_info": {
+          "package_name": "com.ruth.jahan.pathoinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491440859434-qs1tvekg1iv8k2c1f7t0mkpub3t08ll9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2f1kPQlnkNAXORS3ttvWSPdCw6rZd9tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491440859434-qs1tvekg1iv8k2c1f7t0mkpub3t08ll9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
